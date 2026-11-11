@@ -1,0 +1,1913 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>西西人体写真集 - 作品收录与拍摄风格解析</title>
+<meta name="description" content="西西人体写真集收录光影、自然、棚拍等风格的人体摄影作品，提供作品条目、拍摄类型、更新动态与体验指南，适合关注人体艺术摄影的读者浏览与查找。">
+<meta name="keywords" content="西西人体写真集">
+<style>
+  :root {
+    --c-bg: #121014;
+    --c-surface: #1c1920;
+    --c-surface2: #24202a;
+    --c-border: #322c3a;
+    --c-text: #e8e4ed;
+    --c-text2: #a9a1b5;
+    --c-text3: #756d84;
+    --c-primary: #c08a5c;
+    --c-primary-l: #d9a877;
+    --c-primary-d: #96643a;
+    --c-accent: #8c6a9e;
+    --r-card: 10px;
+    --r-btn: 8px;
+    --r-tag: 4px;
+    --r-banner: 14px;
+    --sh: 0 1px 3px rgba(0,0,0,.4);
+    --sh-h: 0 4px 14px rgba(0,0,0,.5);
+    --font: "PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    --maxw: 1320px;
+    --sticky-h: 96px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior:smooth; scroll-padding-top: var(--sticky-h); }
+  body {
+    font-family: var(--font);
+    background: var(--c-bg);
+    color: var(--c-text);
+    line-height: 1.7;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--c-primary-l); text-decoration: none; }
+  a:hover { color: var(--c-primary); }
+  img { display:block; max-width:100%; object-fit:cover; }
+  button { font-family: inherit; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--c-primary); outline-offset: 2px; }
+
+  /* 吸顶公告条 */
+  .notice-bar {
+    background: linear-gradient(90deg, #2a2233, #1f1a26);
+    border-bottom: 1px solid var(--c-border);
+    font-size: 13px;
+    color: var(--c-text2);
+    overflow: hidden;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 36px;
+    display: flex;
+    align-items: center;
+  }
+  .notice-bar .notice-inner {
+    display: flex;
+    gap: 36px;
+    animation: marquee 28s linear infinite;
+    padding-left: 20px;
+  }
+  .notice-bar .notice-inner:hover { animation-play-state: paused; }
+  .notice-bar strong { color: var(--c-primary-l); font-weight: 500; }
+  .notice-bar .dot { color: var(--c-primary); margin-right: 6px; }
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* 吸顶页头 */
+  .site-header {
+    position: sticky;
+    top: 36px;
+    z-index: 99;
+    background: rgba(18,16,20,.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--c-border);
+  }
+  .header-inner {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 0 24px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--c-text);
+    letter-spacing: .5px;
+    white-space: nowrap;
+  }
+  .brand svg { flex-shrink: 0; }
+  .main-nav {
+    display: flex;
+    gap: 4px;
+    flex: 1;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .main-nav::-webkit-scrollbar { display: none; }
+  .main-nav a {
+    color: var(--c-text2);
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    white-space: nowrap;
+    transition: background .2s, color .2s;
+  }
+  .main-nav a:hover, .main-nav a.active {
+    color: var(--c-text);
+    background: var(--c-surface2);
+  }
+  .header-search {
+    display: flex;
+    align-items: center;
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-btn);
+    padding: 0 10px;
+    height: 34px;
+    width: 190px;
+    transition: border-color .2s;
+  }
+  .header-search:focus-within { border-color: var(--c-primary-d); }
+  .header-search input {
+    background: none;
+    border: none;
+    color: var(--c-text);
+    font-size: 13px;
+    width: 100%;
+    outline: none;
+    font-family: inherit;
+  }
+  .header-search input::placeholder { color: var(--c-text3); }
+  .header-search svg { flex-shrink: 0; opacity: .5; }
+  .hamburger {
+    display: none;
+    background: none;
+    border: 1px solid var(--c-border);
+    border-radius: 6px;
+    padding: 6px 8px;
+    color: var(--c-text);
+    line-height: 0;
+  }
+  .nav-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.6);
+    z-index: 98;
+  }
+
+  /* 首屏 */
+  .hero {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 52px 24px 40px;
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 48px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-text h1 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, #f0e6d8 0%, #d9a877 60%, #a87a56 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .hero-text .hero-desc {
+    color: var(--c-text2);
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 560px;
+    margin-bottom: 24px;
+  }
+  .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--c-primary);
+    color: #1a1410;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 22px;
+    border-radius: var(--r-btn);
+    border: none;
+    transition: background .2s, transform .2s, box-shadow .2s;
+  }
+  .btn-primary:hover { background: var(--c-primary-l); transform: translateY(-2px); box-shadow: var(--sh-h); color:#1a1410; }
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    color: var(--c-text2);
+    font-size: 14px;
+    padding: 10px 22px;
+    border-radius: var(--r-btn);
+    border: 1px solid var(--c-border);
+    transition: border-color .2s, color .2s;
+  }
+  .btn-ghost:hover { border-color: var(--c-primary-d); color: var(--c-text); }
+  .hero-visual {
+    position: relative;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-visual .ring {
+    position: absolute;
+    border: 1px solid rgba(192,138,92,.18);
+    border-radius: 50%;
+  }
+  .ring1 { width: 260px; height: 260px; animation: spin 40s linear infinite; }
+  .ring2 { width: 200px; height: 200px; border-style: dashed; border-color: rgba(140,106,158,.2); animation: spin 30s linear infinite reverse; }
+  .ring3 { width: 320px; height: 320px; border-color: rgba(192,138,92,.08); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .hero-visual .silhouette {
+    width: 120px;
+    height: 200px;
+    position: relative;
+    z-index: 2;
+    opacity: .85;
+  }
+  .hero-tagline {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--c-text3);
+    white-space: nowrap;
+  }
+
+  /* 主布局三栏 */
+  .page-wrap {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 0 24px 60px;
+    display: grid;
+    grid-template-columns: 178px 1fr 248px;
+    gap: 32px;
+    align-items: start;
+  }
+  .col-left, .col-right { position: sticky; top: calc(var(--sticky-h) + 20px); }
+  .channel-nav {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 14px 0;
+    overflow: hidden;
+  }
+  .channel-nav .ch-title {
+    font-size: 12px;
+    color: var(--c-text3);
+    letter-spacing: 2px;
+    padding: 0 16px 10px;
+    font-weight: 500;
+  }
+  .channel-nav a {
+    display: block;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: var(--c-text2);
+    border-left: 2px solid transparent;
+    transition: all .2s;
+  }
+  .channel-nav a:hover, .channel-nav a.active {
+    color: var(--c-primary-l);
+    background: rgba(192,138,92,.06);
+    border-left-color: var(--c-primary);
+  }
+  .side-card {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  .side-card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--c-text);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--c-border);
+  }
+  .side-list { list-style: none; }
+  .side-list li {
+    display: flex;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--c-text2);
+    padding: 6px 0;
+    line-height: 1.5;
+  }
+  .side-list li .idx {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 3px;
+    background: var(--c-surface2);
+    font-size: 11px;
+    color: var(--c-text3);
+  }
+  .side-list li:nth-child(-n+3) .idx { background: var(--c-primary-d); color: #fff; }
+  .side-list li a { color: var(--c-text2); }
+  .side-list li a:hover { color: var(--c-primary-l); }
+
+  /* 主内容 */
+  .main-content { min-width: 0; }
+  .section {
+    margin-bottom: 48px;
+    scroll-margin-top: var(--sticky-h);
+  }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 12px;
+  }
+  .section-head h2 {
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--c-text);
+    letter-spacing: .5px;
+    position: relative;
+    padding-left: 14px;
+  }
+  .section-head h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    bottom: 4px;
+    width: 3px;
+    background: var(--c-primary);
+    border-radius: 2px;
+  }
+  .section-head .more {
+    font-size: 13px;
+    color: var(--c-text3);
+    white-space: nowrap;
+  }
+  .section-head .more:hover { color: var(--c-primary-l); }
+
+  /* 领域概览 */
+  .overview-card {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 24px 28px;
+    font-size: 14.5px;
+    color: var(--c-text2);
+    line-height: 1.9;
+  }
+  .overview-card p + p { margin-top: 12px; }
+  .overview-card strong { color: var(--c-primary-l); font-weight: 500; }
+
+  /* 精选卡片网格 */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .feat-card {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform .25s, box-shadow .25s, border-color .25s;
+  }
+  .feat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--sh-h);
+    border-color: var(--c-primary-d);
+  }
+  .feat-card .thumb {
+    width: 100%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    background: var(--c-surface2);
+  }
+  .feat-card .thumb img {
+    width: 100%;
+    height: 100%;
+    transition: transform .4s;
+  }
+  .feat-card:hover .thumb img { transform: scale(1.04); }
+  .feat-body {
+    padding: 14px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+  }
+  .feat-body h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--c-text);
+    line-height: 1.4;
+  }
+  .feat-type {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: var(--r-tag);
+    background: rgba(192,138,92,.15);
+    color: var(--c-primary-l);
+    align-self: flex-start;
+  }
+  .feat-desc {
+    font-size: 13px;
+    color: var(--c-text2);
+    line-height: 1.6;
+    flex: 1;
+  }
+  .feat-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+  .feat-tags span {
+    font-size: 11px;
+    padding: 1px 7px;
+    border-radius: var(--r-tag);
+    background: var(--c-surface2);
+    color: var(--c-text3);
+  }
+  .feat-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--c-text3);
+    padding-top: 8px;
+    border-top: 1px solid var(--c-border);
+  }
+  .feat-meta .hot { color: var(--c-primary); }
+
+  /* 动态列表 */
+  .update-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    overflow: hidden;
+  }
+  .update-item {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--c-border);
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .update-item:nth-child(odd) { border-right: 1px solid var(--c-border); }
+  .update-item:nth-last-child(-n+2) { border-bottom: none; }
+  .update-date {
+    flex-shrink: 0;
+    font-size: 12px;
+    color: var(--c-text3);
+    padding-top: 2px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .update-body h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--c-text);
+    margin-bottom: 3px;
+    line-height: 1.45;
+  }
+  .update-body p {
+    font-size: 12.5px;
+    color: var(--c-text2);
+    line-height: 1.55;
+  }
+
+  /* 分类入口 */
+  .cat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+  .cat-item {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 16px 14px;
+    transition: border-color .2s, background .2s;
+    display: block;
+  }
+  .cat-item:hover { border-color: var(--c-primary-d); background: var(--c-surface2); }
+  .cat-item .cat-icon {
+    font-size: 20px;
+    margin-bottom: 6px;
+    display: block;
+  }
+  .cat-item .cat-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--c-text);
+    margin-bottom: 3px;
+    display: block;
+  }
+  .cat-item .cat-count {
+    font-size: 11.5px;
+    color: var(--c-text3);
+    display: block;
+  }
+
+  /* 深度解析 */
+  .deep-article {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 28px 32px;
+    font-size: 14.5px;
+    color: var(--c-text2);
+    line-height: 1.9;
+  }
+  .deep-article h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--c-text);
+    margin: 26px 0 10px;
+    padding-left: 10px;
+    border-left: 2px solid var(--c-accent);
+  }
+  .deep-article h3:first-child { margin-top: 0; }
+  .deep-article p { margin-bottom: 10px; }
+  .deep-article ul { padding-left: 20px; margin: 8px 0 12px; }
+  .deep-article li { margin-bottom: 5px; }
+  .deep-article strong { color: var(--c-primary-l); font-weight: 500; }
+  .deep-article .pullquote {
+    border-left: 3px solid var(--c-primary);
+    background: rgba(192,138,92,.06);
+    padding: 12px 18px;
+    margin: 16px 0;
+    border-radius: 0 var(--r-tag) var(--r-tag) 0;
+    font-size: 14px;
+    color: var(--c-text);
+  }
+  .deep-article .fact-box {
+    background: var(--c-surface2);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-tag);
+    padding: 14px 18px;
+    margin: 14px 0;
+    font-size: 13.5px;
+  }
+  .fact-box .fb-title {
+    font-size: 12px;
+    color: var(--c-text3);
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+
+  /* 体验指南 */
+  .guide-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .guide-step {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 20px;
+    position: relative;
+  }
+  .guide-step .step-num {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--c-primary-d);
+    opacity: .35;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .guide-step h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--c-text);
+    margin-bottom: 6px;
+  }
+  .guide-step p {
+    font-size: 13px;
+    color: var(--c-text2);
+    line-height: 1.65;
+  }
+
+  /* FAQ */
+  .faq-list { display: flex; flex-direction: column; gap: 8px; }
+  .faq-list details {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    overflow: hidden;
+  }
+  .faq-list details[open] { border-color: var(--c-primary-d); }
+  .faq-list summary {
+    padding: 14px 18px;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: var(--c-text);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    transition: background .2s;
+  }
+  .faq-list summary::-webkit-details-marker { display: none; }
+  .faq-list summary::after {
+    content: '+';
+    font-size: 18px;
+    color: var(--c-text3);
+    transition: transform .2s;
+    flex-shrink: 0;
+  }
+  .faq-list details[open] summary::after { content: '−'; color: var(--c-primary); }
+  .faq-list summary:hover { background: var(--c-surface2); }
+  .faq-list .faq-a {
+    padding: 0 18px 16px;
+    font-size: 13.5px;
+    color: var(--c-text2);
+    line-height: 1.8;
+  }
+
+  /* 评论 */
+  .comment-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .comment-card {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    padding: 14px 16px;
+  }
+  .comment-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .comment-avatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--c-surface2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: var(--c-primary-l);
+    flex-shrink: 0;
+  }
+  .comment-name { font-size: 13px; color: var(--c-text); font-weight: 500; }
+  .comment-time { font-size: 11px; color: var(--c-text3); margin-left: auto; }
+  .comment-text {
+    font-size: 13px;
+    color: var(--c-text2);
+    line-height: 1.65;
+  }
+
+  /* 资讯 */
+  .news-list { display: flex; flex-direction: column; gap: 0; }
+  .news-item {
+    display: flex;
+    gap: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--c-border);
+    align-items: flex-start;
+  }
+  .news-item:last-child { border-bottom: none; }
+  .news-date {
+    flex-shrink: 0;
+    font-size: 12px;
+    color: var(--c-text3);
+    padding-top: 3px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .news-body h4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--c-text);
+    margin-bottom: 4px;
+  }
+  .news-body h4 a { color: var(--c-text); }
+  .news-body h4 a:hover { color: var(--c-primary-l); }
+  .news-body p {
+    font-size: 13px;
+    color: var(--c-text2);
+    line-height: 1.6;
+  }
+
+  /* 相关推荐标签 */
+  .rec-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .rec-tags a {
+    display: inline-block;
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 13px;
+    color: var(--c-text2);
+    transition: all .2s;
+  }
+  .rec-tags a:hover {
+    border-color: var(--c-primary-d);
+    color: var(--c-primary-l);
+    background: rgba(192,138,92,.06);
+  }
+
+  /* 榜单 / 补充板块 */
+  .chart-list {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-card);
+    overflow: hidden;
+  }
+  .chart-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--c-border);
+    transition: background .2s;
+  }
+  .chart-row:last-child { border-bottom: none; }
+  .chart-row:hover { background: var(--c-surface2); }
+  .chart-rank {
+    flex-shrink: 0;
+    width: 24px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--c-text3);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+  .chart-row:nth-child(1) .chart-rank { color: #d9a877; }
+  .chart-row:nth-child(2) .chart-rank { color: #c08a5c; }
+  .chart-row:nth-child(3) .chart-rank { color: #96643a; }
+  .chart-info { flex: 1; min-width: 0; }
+  .chart-info h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--c-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .chart-info span { font-size: 12px; color: var(--c-text3); }
+  .chart-score {
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--c-primary);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* 投稿互动 */
+  .submit-banner {
+    background: linear-gradient(135deg, #2a2233, #1c1920);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-banner);
+    padding: 28px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .submit-banner h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--c-text);
+    margin-bottom: 6px;
+  }
+  .submit-banner p {
+    font-size: 13.5px;
+    color: var(--c-text2);
+    max-width: 520px;
+  }
+  .submit-banner .btn-primary { flex-shrink: 0; }
+
+  /* 页尾 */
+  .site-footer {
+    border-top: 1px solid var(--c-border);
+    background: var(--c-surface);
+    padding: 40px 24px 28px;
+    margin-top: 20px;
+  }
+  .footer-inner {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 32px;
+  }
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--c-text);
+    margin-bottom: 12px;
+  }
+  .footer-desc {
+    font-size: 13px;
+    color: var(--c-text2);
+    line-height: 1.75;
+    max-width: 320px;
+  }
+  .footer-col h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--c-text);
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+  }
+  .footer-col a {
+    display: block;
+    font-size: 13px;
+    color: var(--c-text2);
+    padding: 4px 0;
+    transition: color .2s;
+  }
+  .footer-col a:hover { color: var(--c-primary-l); }
+  .footer-bottom {
+    max-width: var(--maxw);
+    margin: 28px auto 0;
+    padding-top: 18px;
+    border-top: 1px solid var(--c-border);
+    font-size: 12px;
+    color: var(--c-text3);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* 回顶 */
+  .back-top {
+    position: fixed;
+    right: 24px;
+    bottom: 28px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: var(--c-surface2);
+    border: 1px solid var(--c-border);
+    color: var(--c-text2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s, background .2s, transform .2s;
+    z-index: 90;
+  }
+  .back-top.show { opacity: 1; pointer-events: auto; }
+  .back-top:hover { background: var(--c-primary-d); color: #fff; transform: translateY(-2px); }
+
+  /* 搜索无结果 */
+  .search-empty {
+    display: none;
+    padding: 28px;
+    text-align: center;
+    color: var(--c-text3);
+    font-size: 14px;
+    background: var(--c-surface);
+    border-radius: var(--r-card);
+    border: 1px dashed var(--c-border);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: .01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: .01ms !important;
+      scroll-behavior: auto !important;
+    }
+    .notice-bar .notice-inner { animation: none; }
+  }
+
+  /* 响应式 */
+  @media (max-width: 1120px) {
+    .page-wrap { grid-template-columns: 160px 1fr 220px; gap: 24px; }
+    .feature-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero { grid-template-columns: 1fr 280px; gap: 32px; }
+    .hero-text h1 { font-size: 32px; }
+  }
+  @media (max-width: 1024px) {
+    .page-wrap { grid-template-columns: 1fr 240px; }
+    .col-left { display: none; }
+    .feature-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero { grid-template-columns: 1fr 240px; }
+    .hero-text h1 { font-size: 28px; }
+    .cat-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  @media (max-width: 740px) {
+    :root { --sticky-h: 92px; }
+    .header-inner { gap: 12px; padding: 0 16px; }
+    .main-nav {
+      position: fixed;
+      top: calc(36px + 58px);
+      left: 0;
+      right: 0;
+      background: var(--c-surface);
+      flex-direction: column;
+      padding: 12px;
+      border-bottom: 1px solid var(--c-border);
+      transform: translateY(-120%);
+      transition: transform .3s;
+      z-index: 97;
+      max-height: calc(100vh - 94px);
+      overflow-y: auto;
+    }
+    .main-nav.open { transform: translateY(0); }
+    .main-nav a { padding: 12px 16px; font-size: 15px; border-radius: 8px; }
+    .hamburger { display: block; }
+    .nav-overlay.open { display: block; }
+    .header-search { width: 140px; }
+    .header-search input { font-size: 12px; }
+    .page-wrap { grid-template-columns: 1fr; padding: 0 16px 40px; }
+    .col-right { position: static; }
+    .hero {
+      grid-template-columns: 1fr;
+      padding: 32px 16px 24px;
+      gap: 24px;
+      text-align: center;
+    }
+    .hero-text h1 { font-size: 26px; }
+    .hero-desc { margin-left: auto; margin-right: auto; }
+    .hero-actions { justify-content: center; }
+    .hero-visual { height: 220px; order: -1; }
+    .ring1 { width: 200px; height: 200px; }
+    .ring2 { width: 150px; height: 150px; }
+    .ring3 { width: 250px; height: 250px; }
+    .hero-visual .silhouette { width: 90px; height: 150px; }
+    .feature-grid { grid-template-columns: 1fr; }
+    .update-list { grid-template-columns: 1fr; }
+    .update-item:nth-child(odd) { border-right: none; }
+    .update-item:nth-last-child(-n+2) { border-bottom: 1px solid var(--c-border); }
+    .update-item:last-child { border-bottom: none; }
+    .cat-grid { grid-template-columns: repeat(2, 1fr); }
+    .guide-steps { grid-template-columns: 1fr; }
+    .comment-grid { grid-template-columns: 1fr; }
+    .deep-article { padding: 20px 18px; }
+    .footer-inner { grid-template-columns: 1fr 1fr; gap: 24px; }
+    .submit-banner { padding: 22px 20px; }
+    .section-head h2 { font-size: 18px; }
+    .back-top { right: 14px; bottom: 16px; width: 38px; height: 38px; }
+    .notice-bar .notice-inner { gap: 24px; }
+  }
+  @media (max-width: 380px) {
+    .cat-grid { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr; }
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="notice-bar" id="noticeBar">
+  <div class="notice-inner">
+    <span><span class="dot">●</span><strong>11月7日</strong> 更新《暖光·室內》系列第3辑 12张</span>
+    <span><span class="dot">●</span><strong>11月6日</strong> 新增「废弃工厂」场景作品 8组</span>
+    <span><span class="dot">●</span><strong>11月5日</strong> 摄影师「林野」访谈上线 收录4组幕后</span>
+    <span><span class="dot">●</span><strong>11月4日</strong> 本月投稿通道开启 已收37组</span>
+    <span><span class="dot">●</span><strong>11月7日</strong> 更新《暖光·室內》系列第3辑 12张</span>
+    <span><span class="dot">●</span><strong>11月6日</strong> 新增「废弃工厂」场景作品 8组</span>
+    <span><span class="dot">●</span><strong>11月5日</strong> 摄影师「林野」访谈上线 收录4组幕后</span>
+    <span><span class="dot">●</span><strong>11月4日</strong> 本月投稿通道开启 已收37组</span>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="brand" aria-label="西西人体写真集首页">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <circle cx="14" cy="14" r="12" stroke="#c08a5c" stroke-width="1.2" opacity=".6"/>
+        <path d="M14 5 C10 9, 8 13, 9 19 C10 22, 12 24, 14 24 C16 24, 18 22, 19 19 C20 13, 18 9, 14 5Z" fill="#c08a5c" opacity=".25"/>
+        <circle cx="14" cy="11" r="2.2" fill="#d9a877"/>
+        <path d="M14 13.5 C11.5 16, 11 19, 12.5 21.5" stroke="#d9a877" stroke-width="1" stroke-linecap="round" opacity=".7"/>
+        <path d="M14 13.5 C16.5 16, 17 19, 15.5 21.5" stroke="#d9a877" stroke-width="1" stroke-linecap="round" opacity=".7"/>
+      </svg>
+      西西人体写真集
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="频道导航">
+      <a href="/#overview" class="active">领域概览</a>
+      <a href="/#featured">精选作品</a>
+      <a href="/#updates">更新动态</a>
+      <a href="/#categories">分类入口</a>
+      <a href="/#deepdive">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#comments">用户评论</a>
+      <a href="/#news">相关资讯</a>
+      <a href="/#chart">热门榜单</a>
+    </nav>
+    <div class="header-search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" id="searchInput" placeholder="搜索作品或标签…" aria-label="站内搜索">
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="打开导航菜单" aria-expanded="false" aria-controls="mainNav">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+<div class="nav-overlay" id="navOverlay"></div>
+
+<main id="main">
+  <!-- 首屏 -->
+  <section class="hero" aria-label="主题首屏">
+    <div class="hero-text">
+      <h1>西西人体写真集</h1>
+      <p class="hero-desc">汇聚光影、自然、棚拍、废墟场景等方向的人体艺术摄影作品条目，按拍摄风格与场景分类整理，收录摄影师访谈与拍摄手记，呈现人体摄影在构图、用光与身体表达上的具体差异。</p>
+      <div class="hero-actions">
+        <a href="/#featured" class="btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
+          浏览精选作品
+        </a>
+        <a href="/#guide" class="btn-ghost">查看体验指南</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="ring ring3"></div>
+      <div class="ring ring1"></div>
+      <div class="ring ring2"></div>
+      <svg class="silhouette" viewBox="0 0 120 200" fill="none">
+        <ellipse cx="60" cy="38" rx="22" ry="27" fill="#c08a5c" opacity=".18"/>
+        <path d="M60 12 C48 12, 40 24, 42 38 C43 47, 50 54, 60 54 C70 54, 77 47, 78 38 C80 24, 72 12, 60 12Z" stroke="#d9a877" stroke-width="1.2" opacity=".45"/>
+        <path d="M46 58 C34 72, 30 100, 34 128 C37 150, 46 168, 60 178 C74 168, 83 150, 86 128 C90 100, 86 72, 74 58" stroke="#d9a877" stroke-width="1.2" opacity=".4"/>
+        <path d="M46 70 C38 84, 36 104, 40 120" stroke="#8c6a9e" stroke-width=".8" opacity=".35"/>
+        <path d="M74 70 C82 84, 84 104, 80 120" stroke="#8c6a9e" stroke-width=".8" opacity=".35"/>
+        <circle cx="60" cy="100" r="5" stroke="#d9a877" stroke-width=".8" opacity=".3"/>
+      </svg>
+      <span class="hero-tagline">光影 · 身体 · 构图</span>
+    </div>
+  </section>
+
+  <!-- 主体三栏 -->
+  <div class="page-wrap">
+    <!-- 左栏频道 -->
+    <aside class="col-left" aria-label="频道索引">
+      <nav class="channel-nav" aria-label="内容频道">
+        <div class="ch-title">频道索引</div>
+        <a href="/#overview">领域概览</a>
+        <a href="/#featured">精选作品</a>
+        <a href="/#updates">更新动态</a>
+        <a href="/#categories">分类入口</a>
+        <a href="/#deepdive">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#comments">用户评论</a>
+        <a href="/#news">相关资讯</a>
+        <a href="/#recommend">相关推荐</a>
+        <a href="/#chart">热门榜单</a>
+        <a href="/#submit">投稿互动</a>
+      </nav>
+    </aside>
+
+    <!-- 中主内容 -->
+    <div class="main-content">
+
+      <!-- 1. 领域概览 -->
+      <section class="section" id="overview">
+        <div class="section-head">
+          <h2>人体摄影的方向与当前可看内容</h2>
+        </div>
+        <div class="overview-card">
+          <p>人体写真在摄影领域里并不是一个单一类型。按场景分，有室内棚拍、自然户外、废墟与工业场景、复古卧室四类主流方向；按用光方式分，有自然光、单灯硬光、柔光箱包裹、窗光折射等常见处理；按身体表达的重心分，又可分为强调线条轮廓的雕塑感、强调情绪氛围的叙事感、强调互动与即兴的纪实感。三种划分交叉之后，构成目前作品条目里最常被检索的组合。</p>
+          <p>2026年10月底到11月初，站内收录的<strong>「暖光·室內」系列第3辑</strong>（11月7日更新，12张）、<strong>「废弃工厂」场景组</strong>（11月6日新增，8组）、<strong>摄影师林野的4组幕后记录</strong>（11月5日上线）是近期条目增量最集中的三块。其中「暖光·室內」延续了窗光加米色床品的低对比处理，第3辑把拍摄时间从下午四点推到六点，色温从5200K滑到3800K，同一场景的冷暖差异成为这一辑的讨论点。</p>
+          <p>从访问与收藏数据看，场景类条目的检索集中在「废墟」「老厂房」「毛坯房」几个具体词上，风格类条目则更多被「自然光」「窗光」「低饱和」这类处理方式词带出。摄影师署名条目里，林野、陈屿、阿七、周野四位的作品组在近30天内被反复翻阅，其中林野的「室内自然光」系列和林野11月5日上线的访谈记录形成前后呼应，看作品和看拍摄手记可以对照着读。</p>
+        </div>
+      </section>
+
+      <!-- 2. 精选作品 -->
+      <section class="section" id="featured">
+        <div class="section-head">
+          <h2>近期值得细看的作品组</h2>
+          <a href="/#chart" class="more">查看热门榜单 →</a>
+        </div>
+        <div class="feature-grid" id="featureGrid">
+          <article class="feat-card" data-search="暖光室内 林野 窗光 自然光 室内">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/nuanguang01/400/300" width="400" height="300" loading="lazy" alt="暖光·室內系列第3辑窗边自然光人像">
+            </div>
+            <div class="feat-body">
+              <span class="feat-type">室内自然光</span>
+              <h3>暖光·室內 第3辑</h3>
+              <p class="feat-desc">林野在朝西卧室拍的12张，下午四点到六点窗光色温从5200K落到3800K，第7张到第12张的暖调过渡是这一辑最值得对照看的部分。</p>
+              <div class="feat-tags"><span>窗光</span><span>低对比</span><span>色温过渡</span></div>
+              <div class="feat-meta"><span>11月7日更新</span><span class="hot">热度 9.2</span></div>
+            </div>
+          </article>
+
+          <article class="feat-card" data-search="废弃工厂 废墟 工业 硬光 陈屿">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/feichang02/400/300" width="400" height="300" loading="lazy" alt="废弃工厂场景硬光人体摄影作品">
+            </div>
+            <div class="feat-body">
+              <span class="feat-type">废墟场景</span>
+              <h3>废弃工厂 8组</h3>
+              <p class="feat-desc">陈屿在城东老厂区拍的8组，天窗漏下的硬光切出明暗交界线，第3组和第6组用同一面混凝土墙做了顺光和侧逆光的对照。</p>
+              <div class="feat-tags"><span>硬光</span><span>混凝土</span><span>明暗交界</span></div>
+              <div class="feat-meta"><span>11月6日新增</span><span class="hot">热度 8.7</span></div>
+            </div>
+          </article>
+
+          <article class="feat-card" data-search="林野 访谈 幕后 拍摄手记 自然光">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/linye03/400/300" width="400" height="300" loading="lazy" alt="摄影师林野在室内调试窗光拍摄参数">
+            </div>
+            <div class="feat-body">
+              <span class="feat-type">幕后访谈</span>
+              <h3>林野：窗光不是万能光</h3>
+              <p class="feat-desc">4组幕后记录加一篇访谈，林野讲了他为什么在下午四点后才开机，以及窗光在阴天和晴天下的反差控制差异，附了3张未调色原片。</p>
+              <div class="feat-tags"><span>拍摄手记</span><span>原片</span><span>反差控制</span></div>
+              <div class="feat-meta"><span>11月5日上线</span><span class="hot">热度 9.0</span></div>
+            </div>
+          </article>
+
+          <article class="feat-card" data-search="自然户外 阿七 溪谷 逆光 轮廓">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/chugu04/400/300" width="400" height="300" loading="lazy" alt="溪谷自然户外逆光轮廓人体摄影">
+            </div>
+            <div class="feat-body">
+              <span class="feat-type">自然户外</span>
+              <h3>溪谷逆光 6组</h3>
+              <p class="feat-desc">阿七在浙西一条浅溪拍的6组，上午九点半的侧逆光把身体轮廓从背景里剥离出来，第4组开始改用低机位，水面反光补了正面暗部。</p>
+              <div class="feat-tags"><span>逆光</span><span>溪谷</span><span>水面反光</span></div>
+              <div class="feat-meta"><span>11月3日更新</span><span class="hot">热度 8.4</span></div>
+            </div>
+          </article>
+
+          <article class="feat-card" data-search="复古卧室 周野 暖调 胶片 室内">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/fugushi05/400/300" width="400" height="300" loading="lazy" alt="复古卧室暖调胶片人体摄影作品">
+            </div>
+            <div class="feat-body">
+              <span class="feat-type">复古室内</span>
+              <h3>旧卧室 胶片12张</h3>
+              <p class="feat-desc">周野用 Portra 400 在朋友老房子里拍的12张，台灯加窗外散射光混合，颗粒感和暖黄调是这一组的主要看点，第9张的镜面反射构图被多次讨论。</p>
+              <div class="feat-tags"><span>Portra 400</span><span>混合光</span><span>镜面构图</span></div>
+              <div class="feat-meta"><span>11月2日更新</span><span class="hot">热度 8.1</span></div>
+            </div>
+          </article>
+
+          <article class="feat-card" data-search="单灯硬光 棚拍 极简 陈屿 灰背">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/danden06/400/300" width="400" height="300" loading="lazy" alt="棚拍单灯硬光极简灰背人体摄影">
+            </div>
+            <div class="feat-body">
+              <span class="feat-type">棚拍硬光</span>
+              <h3>单灯·灰背 9张</h3>
+              <p class="feat-desc">陈屿在影棚用一支裸灯加灰色背景纸拍的9张，光比控制在1:4，强调肩胛和脊柱沟的阴影走向，第5张以后加入反光板微调暗部细节。</p>
+              <div class="feat-tags"><span>裸灯</span><span>1:4光比</span><span>灰背</span></div>
+              <div class="feat-meta"><span>10月30日更新</span><span class="hot">热度 7.8</span></div>
+            </div>
+          </article>
+        </div>
+        <div class="search-empty" id="searchEmpty">没有找到匹配的作品，试试「窗光」「废墟」「逆光」等关键词。</div>
+      </section>
+
+      <!-- 3. 更新动态 -->
+      <section class="section" id="updates">
+        <div class="section-head">
+          <h2>条目更新与收录动态</h2>
+        </div>
+        <div class="update-list">
+          <div class="update-item">
+            <span class="update-date">11月7日</span>
+            <div class="update-body">
+              <h4>「暖光·室內」第3辑上线</h4>
+              <p>林野更新12张，拍摄时间从下午四点推到六点，色温滑落记录完整保留。</p>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-date">11月6日</span>
+            <div class="update-body">
+              <h4>「废弃工厂」场景组新增</h4>
+              <p>陈屿在城东老厂区拍的8组，含顺光与侧逆光对照，混凝土墙作为固定参照。</p>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-date">11月5日</span>
+            <div class="update-body">
+              <h4>林野访谈与幕后4组上线</h4>
+              <p>含3张未调色原片，林野谈阴天与晴天下窗光反差控制的具体差异。</p>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-date">11月4日</span>
+            <div class="update-body">
+              <h4>11月投稿通道开启</h4>
+              <p>截至11月7日已收37组，场景类占21组，室内自然光类占11组。</p>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-date">11月3日</span>
+            <div class="update-body">
+              <h4>阿七「溪谷逆光」6组更新</h4>
+              <p>第4组起改用低机位，水面反光补正面暗部，附拍摄点位说明。</p>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-date">11月2日</span>
+            <div class="update-body">
+              <h4>周野「旧卧室」胶片12张</h4>
+              <p>Portra 400 拍摄，台灯与窗外散射光混合，第9张镜面构图讨论集中。</p>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-date">10月30日</span>
+            <div class="update-body">
+              <h4>陈屿「单灯·灰背」9张收录</h4>
+              <p>裸灯加灰背纸，1:4光比，第5张起加入反光板微调暗部。</p>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-date">10月28日</span>
+            <div class="update-body">
+              <h4>「毛坯房」场景条目补充</h4>
+              <p>新增3组窗洞侧光作品，附同一房间不同时段的用光对照记录。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. 分类入口 -->
+      <section class="section" id="categories">
+        <div class="section-head">
+          <h2>按拍摄场景与用光方式查找</h2>
+        </div>
+        <div class="cat-grid">
+          <a href="/#featured" class="cat-item">
+            <span class="cat-icon">🪟</span>
+            <span class="cat-name">室内自然光</span>
+            <span class="cat-count">收录 48 组</span>
+          </a>
+          <a href="/#featured" class="cat-item">
+            <span class="cat-icon">🏚️</span>
+            <span class="cat-name">废墟与工业场景</span>
+            <span class="cat-count">收录 32 组</span>
+          </a>
+          <a href="/#featured" class="cat-item">
+            <span class="cat-icon">🌿</span>
+            <span class="cat-name">自然户外</span>
+            <span class="cat-count">收录 27 组</span>
+          </a>
+          <a href="/#featured" class="cat-item">
+            <span class="cat-icon">💡</span>
+            <span class="cat-name">单灯硬光棚拍</span>
+            <span class="cat-count">收录 21 组</span>
+          </a>
+          <a href="/#featured" class="cat-item">
+            <span class="cat-icon">🎞️</span>
+            <span class="cat-name">胶片与复古调</span>
+            <span class="cat-count">收录 19 组</span>
+          </a>
+          <a href="/#featured" class="cat-item">
+            <span class="cat-icon">🛏️</span>
+            <span class="cat-name">卧室与私密空间</span>
+            <span class="cat-count">收录 16 组</span>
+          </a>
+          <a href="/#featured" class="cat-item">
+            <span class="cat-icon">🌅</span>
+            <span class="cat-name">逆光与轮廓</span>
+            <span class="cat-count">收录 14 组</span>
+          </a>
+          <a href="/#featured" class="cat-item">
+            <span class="cat-icon">🪞</span>
+            <span class="cat-name">镜面与反射构图</span>
+            <span class="cat-count">收录 11 组</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- 5. 深度解析 -->
+      <section class="section" id="deepdive">
+        <div class="section-head">
+          <h2>窗光、硬光与胶片：三种用光路径的实际差异</h2>
+        </div>
+        <article class="deep-article">
+          <h3>窗光为什么被高估，又为什么仍然值得先学</h3>
+          <p>室内自然光几乎是所有人体摄影入门者最先接触的用光方式，原因不复杂：不需要买灯，不需要搭景，一扇朝北或朝西的窗就够。但窗光本身有一个被反复低估的问题——它的方向、强度和色温在一天之内是连续变化的，拍摄者能控制的只有拍摄时间点和身体相对窗户的位置。</p>
+          <p>林野在11月5日的访谈里给了一组具体数据：同一个朝西卧室，下午两点窗边照度约1200lux，四点降到600lux左右，六点不到300lux。这个落差意味着，两点到四点之间光圈或快门需要调整一档半到两档，而四点到六点之间如果不补光，画面暗部会明显压不住。他在「暖光·室內」第3辑里保留了这个变化过程，第7张到第12张的色温从5200K滑到3800K，暖调逐渐加重。</p>
+          <p>窗光的另一个问题是反差不可控。晴天直射进窗的光比可以达到1:8甚至更高，阴天则可能压到1:2以内。林野的做法是在阴天用白墙或白色床单做反光面，把光比拉回1:4左右；晴天则干脆等到下午四点后直射光离开窗户再拍。这个取舍很实际：等光比等设备更省事，代价是每天的有效拍摄窗口只有两小时上下。</p>
+          <div class="pullquote">窗光真正难的不是用光，是判断什么时候该停下来不拍。下午三点半的硬光在很多人手里是风格，在更多人手里是失控。</div>
+
+          <h3>硬光的边界在哪里：单灯与天窗的两种控制逻辑</h3>
+          <p>陈屿的两组作品提供了硬光的两个方向。「单灯·灰背」9张（10月30日收录）用的是影棚里一支裸灯，光比控制在1:4，靠反光板补暗部；「废弃工厂」8组（11月6日新增）用的是天窗漏下的自然硬光，光比随云层变化，第3组和第6组在同一面混凝土墙前分别拍了顺光和侧逆光。</p>
+          <p>两者的控制逻辑完全不同。棚内单灯可以精确到光比数值和灯位角度，每一次调整都可复现；天窗光则只能选择站位和等待时机，同一面墙在上午十点和下午三点的阴影走向差别很大。陈屿在工厂场景里保留了这种不确定性，第6组的侧逆光把身体轮廓压成一条亮边，暗部几乎全黑，这种处理在棚内反而很难自然做出来。</p>
+          <div class="fact-box">
+            <div class="fb-title">两组硬光作品的参数对照</div>
+            <ul>
+              <li>单灯·灰背：裸灯距离约2.5米，1:4光比，灰色背景纸，反光板补暗部</li>
+              <li>废弃工厂：天窗自然硬光，光比随云层在1:5到1:9之间波动，混凝土墙固定参照</li>
+              <li>共同点：都强调肩胛、脊柱沟、锁骨三个部位的阴影走向</li>
+              <li>差异：棚内可复现，工厂不可复现，后者每组都是唯一版本</li>
+            </ul>
+          </div>
+
+          <h3>胶片的颗粒与色温：周野「旧卧室」的可核对细节</h3>
+          <p>周野11月2日更新的「旧卧室」12张用 Portra 400 拍摄，台灯加窗外散射光混合。胶片在这类混合光场景里的表现，和数码有可核对的差异：Portra 400 对暖调的宽容度偏高，台灯的2700K色温在胶片上不会像数码那样直接偏黄到溢出，而是被压成一种偏橙的中间调。第9张的镜面反射构图里，镜中像和镜外身体同时出现在画面里，镜面把台灯光反射到身体正面，补掉了原本的暗部。</p>
+          <p>这组作品的讨论集中在第9张，但更值得对照看的是第3张到第5张：同一角度，台灯从开一盏到开两盏，胶片的暖调叠加方式与数码的线性叠加不同，第二盏灯打开后画面并没有明显变亮，而是暖调区域扩大。这个差异在数码上通常表现为整体曝光提升，在胶片上则更接近色块推移。周野在条目说明里写了“两盏灯不如一盏灯加一块白纸”，这句话和实际画面是对得上的。</p>
+
+          <h3>三条用光路径的选择依据</h3>
+          <ul>
+            <li><strong>窗光</strong>适合可控时间窗口内的低对比叙事，单次拍摄有效窗口约两小时，适合有耐心等光的人。</li>
+            <li><strong>棚内硬光</strong>适合需要精确复现和参数对照的拍摄，光比和灯位都可以量化，代价是场景本身不提供额外信息。</li>
+            <li><strong>胶片混合光</strong>适合暖调、颗粒感和不可完全复现的氛围，Portra 400 在2700K台灯下比数码更宽容，但后期调整空间小。</li>
+          </ul>
+          <p>三种路径并不存在绝对优劣。判断依据是拍摄者需要什么：要可复现的对照，选棚内；要场景本身提供信息，选工厂或户外；要色温和颗粒的特定表现，选胶片。真正让一组作品站住的，是用光方式与拍摄意图之间的一致性，而不是用光方式本身有多复杂。</p>
+        </article>
+      </section>
+
+      <!-- 6. 体验指南 -->
+      <section class="section" id="guide">
+        <div class="section-head">
+          <h2>从浏览到细看的顺序建议</h2>
+        </div>
+        <div class="guide-steps">
+          <div class="guide-step">
+            <div class="step-num">01</div>
+            <h4>先按场景确定方向</h4>
+            <p>室内自然光、废墟、户外、棚拍四个方向的作品，观看重点完全不同。先选场景，比先选风格更容易找到可对照的组。</p>
+          </div>
+          <div class="guide-step">
+            <div class="step-num">02</div>
+            <h4>看同一组内的前后变化</h4>
+            <p>「暖光·室內」第3辑的第7到第12张、「废弃工厂」第3和第6组，都是同一场景内的对照。组内变化比单张更能说明用光逻辑。</p>
+          </div>
+          <div class="guide-step">
+            <div class="step-num">03</div>
+            <h4>对照幕后记录判断可信度</h4>
+            <p>有拍摄手记、原片或参数说明的条目，比只有成片的条目更容易判断拍摄条件。林野访谈附了3张未调色原片，可以对照成片看调整幅度。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. FAQ -->
+      <section class="section" id="faq">
+        <div class="section-head">
+          <h2>关于人体写真作品的常见疑问</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>窗光拍摄在阴天和晴天差别有多大？</summary>
+            <div class="faq-a">差别主要在光比。晴天直射进窗的光比可达1:8以上，阴天通常压到1:2以内。林野的处理方式是晴天等下午四点后直射光离开窗户，阴天用白墙或白床单反光把光比拉回1:4左右。两种天气下的有效拍摄窗口不一样，阴天可用时间更长，但画面反差更平。</div>
+          </details>
+          <details>
+            <summary>单灯硬光和天窗硬光哪个更难控制？</summary>
+            <div class="faq-a">单灯硬光可精确到光比数值和灯位角度，每次调整都能复现；天窗硬光只能选站位和等时机，光比随云层在1:5到1:9之间波动。陈屿的「单灯·灰背」和「废弃工厂」两组正好是这两种控制的对照，前者可复现，后者每组都是唯一版本。</div>
+          </details>
+          <details>
+            <summary>Portra 400 在台灯混合光下为什么不容易偏黄？</summary>
+            <div class="faq-a">Portra 400 对暖调的宽容度偏高，2700K台灯在胶片上会被压成偏橙的中间调，而不是像数码那样直接偏黄到溢出。周野「旧卧室」第3到第5张里，台灯从一盏加到两盏，画面没有明显变亮，而是暖调区域扩大，这个表现和数码的线性叠加不同。</div>
+          </details>
+          <details>
+            <summary>「暖光·室內」第3辑第7到第12张的变化是怎么来的？</summary>
+            <div class="faq-a">拍摄时间从下午四点推到六点，窗边照度从600lux左右降到300lux以下，色温从5200K滑到3800K。林野没有中途补光，保留了这个滑落过程，所以第7张到第12张的暖调是逐张加重的，暗部也逐张压得更低。</div>
+          </details>
+          <details>
+            <summary>废墟场景里同一面墙拍顺光和侧逆光，差别在哪？</summary>
+            <div class="faq-a">顺光下墙面纹理完整，身体和背景的明暗关系较平；侧逆光把身体轮廓压成一条亮边，暗部接近全黑，墙面只保留受光面。陈屿在「废弃工厂」第3组用顺光、第6组用侧逆光，两组的混凝土墙是同一面，可以对照看阴影走向和身体边缘的处理差异。</div>
+          </details>
+          <details>
+            <summary>胶片拍摄的人体写真，后期调整空间有多大？</summary>
+            <div class="faq-a">比数码小。Portra 400 的宽容度主要集中在高光一侧，暗部提亮容易带出颗粒和色偏。周野「旧卧室」第9张的镜面反射构图里，镜外身体和镜中像的曝光差在胶片上已经固定，后期能做的只是整体微调，不能像数码那样单独提亮其中一侧。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 8. 用户评论 -->
+      <section class="section" id="comments">
+        <div class="section-head">
+          <h2>看过作品的人在聊什么</h2>
+        </div>
+        <div class="comment-grid">
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">林</div>
+              <span class="comment-name">林间有雾</span>
+              <span class="comment-time">11月7日</span>
+            </div>
+            <p class="comment-text">「暖光·室內」第3辑第9张的暗部压得刚好，再低一档就糊了，林野这个度拿得准。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">陈</div>
+              <span class="comment-name">陈默的相机</span>
+              <span class="comment-time">11月7日</span>
+            </div>
+            <p class="comment-text">工厂那组第6张侧逆光确实好看，但第3张顺光反而把混凝土的质感拍出来了，两张开着看更有意思。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">阿</div>
+              <span class="comment-name">阿七不加班</span>
+              <span class="comment-time">11月6日</span>
+            </div>
+            <p class="comment-text">溪谷那组低机位换得对，前面几张平视的构图太普通了，水面反光补暗部这个细节值得记一笔。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">周</div>
+              <span class="comment-name">周末不拍照</span>
+              <span class="comment-time">11月6日</span>
+            </div>
+            <p class="comment-text">Portra 400 那组第9张的镜面构图，镜中像的曝光其实比镜外低半档，不知道是不是故意的。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">光</div>
+              <span class="comment-name">光比算不明白</span>
+              <span class="comment-time">11月5日</span>
+            </div>
+            <p class="comment-text">1:4光比在灰背纸前面拍，反光板放哪边其实挺影响肩胛阴影走向的，陈屿第5张以后才调，前四张有点硬。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">胶</div>
+              <span class="comment-name">胶片还剩两卷</span>
+              <span class="comment-time">11月5日</span>
+            </div>
+            <p class="comment-text">台灯加窗外散射光这个混合方式我试过，数码上直接黄得没法看，胶片确实宽容很多。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">窗</div>
+              <span class="comment-name">窗边等光的人</span>
+              <span class="comment-time">11月4日</span>
+            </div>
+            <p class="comment-text">林野访谈里说阴天用白床单反光，这个比买反光板实在多了，租房党友好。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">废</div>
+              <span class="comment-name">废墟爱好者老张</span>
+              <span class="comment-time">11月4日</span>
+            </div>
+            <p class="comment-text">城东那个厂区我去过，天窗光下午三点以后就很斜了，陈屿选的时间点是对的。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">不</div>
+              <span class="comment-name">不修图会死</span>
+              <span class="comment-time">11月3日</span>
+            </div>
+            <p class="comment-text">第7到第12张的暖调过渡，我觉得第10张最好，前后两张反而有点过。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">硬</div>
+              <span class="comment-name">硬光爱好者</span>
+              <span class="comment-time">11月2日</span>
+            </div>
+            <p class="comment-text">裸灯加灰背这种拍法现在不多见了，大部分都往柔光走，陈屿这组算是反着来。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">看</div>
+              <span class="comment-name">看看不说话</span>
+              <span class="comment-time">11月2日</span>
+            </div>
+            <p class="comment-text">周野「旧卧室」第3到第5张那组对照，是我最近一个月看到最细的胶片用光记录。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">逆</div>
+              <span class="comment-name">逆光容易糊</span>
+              <span class="comment-time">11月1日</span>
+            </div>
+            <p class="comment-text">阿七溪谷那组第4张之后的低机位，水面反光其实有点抢，不过整体还是成立的。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">路</div>
+              <span class="comment-name">路过的猫</span>
+              <span class="comment-time">10月31日</span>
+            </div>
+            <p class="comment-text">最近在练窗光，林野那个照度数据挺有用的，600lux到300lux这个区间记下了。</p>
+          </div>
+          <div class="comment-card">
+            <div class="comment-head">
+              <div class="comment-avatar">毛</div>
+              <span class="comment-name">毛坯房常客</span>
+              <span class="comment-time">10月30日</span>
+            </div>
+            <p class="comment-text">毛坯房窗洞侧光那3组什么时候补的？之前没看到，回头翻一下对照记录。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. 相关资讯 -->
+      <section class="section" id="news">
+        <div class="section-head">
+          <h2>近期摄影动态与条目变化</h2>
+        </div>
+        <div class="news-list">
+          <div class="news-item">
+            <span class="news-date">11月7日</span>
+            <div class="news-body">
+              <h4><a href="/#featured">林野「暖光·室內」第3辑更新12张，色温记录完整保留</a></h4>
+              <p>拍摄时间从下午四点推到六点，第7到第12张色温从5200K滑到3800K，访谈中提到阴天用白床单反光拉回1:4光比。</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <span class="news-date">11月6日</span>
+            <div class="news-body">
+              <h4><a href="/#featured">陈屿「废弃工厂」场景组新增8组，含顺光与侧逆光对照</a></h4>
+              <p>城东老厂区天窗硬光，第3组和第6组同一面混凝土墙分别拍顺光和侧逆光，光比随云层在1:5到1:9之间波动。</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <span class="news-date">11月5日</span>
+            <div class="news-body">
+              <h4><a href="/#deepdive">林野访谈上线，附3张未调色原片与照度数据</a></h4>
+              <p>下午两点窗边照度约1200lux，四点降到600lux，六点不到300lux，访谈中给出阴天和晴天的具体处理差异。</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <span class="news-date">11月4日</span>
+            <div class="news-body">
+              <h4><a href="/#submit">11月投稿通道开启，场景类已收21组</a></h4>
+              <p>截至11月7日共收37组，室内自然光类11组、废墟与工业场景类21组，其余为户外和棚拍。</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <span class="news-date">11月3日</span>
+            <div class="news-body">
+              <h4><a href="/#featured">阿七「溪谷逆光」6组更新，第4组起改用低机位</a></h4>
+              <p>上午九点半侧逆光，水面反光补正面暗部，附拍摄点位说明和当天水位记录。</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <span class="news-date">11月2日</span>
+            <div class="news-body">
+              <h4><a href="/#featured">周野「旧卧室」胶片12张收录，第9张镜面构图讨论集中</a></h4>
+              <p>Portra 400 拍摄，台灯2700K加窗外散射光混合，第3到第5张记录台灯从一盏到两盏的暖调区域扩大过程。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10. 相关推荐 -->
+      <section class="section" id="recommend">
+        <div class="section-head">
+          <h2>可继续查找的方向</h2>
+        </div>
+        <div class="rec-tags">
+          <a href="/#featured">窗光低对比</a>
+          <a href="/#featured">废弃工厂硬光</a>
+          <a href="/#featured">Portra 400 混合光</a>
+          <a href="/#featured">溪谷逆光轮廓</a>
+          <a href="/#featured">单灯1:4光比</a>
+          <a href="/#featured">镜面反射构图</a>
+          <a href="/#featured">毛坯房窗洞侧光</a>
+          <a href="/#featured">暖光·室內第3辑</a>
+        </div>
+      </section>
+
+      <!-- 11. 热门榜单 -->
+      <section class="section" id="chart">
+        <div class="section-head">
+          <h2>近30天条目翻阅榜</h2>
+        </div>
+        <div class="chart-list">
+          <div class="chart-row">
+            <span class="chart-rank">1</span>
+            <div class="chart-info">
+              <h4>暖光·室內 第3辑</h4>
+              <span>林野 · 室内自然光 · 11月7日更新</span>
+            </div>
+            <span class="chart-score">9.2</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-rank">2</span>
+            <div class="chart-info">
+              <h4>林野：窗光不是万能光</h4>
+              <span>访谈 · 幕后4组 · 11月5日上线</span>
+            </div>
+            <span class="chart-score">9.0</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-rank">3</span>
+            <div class="chart-info">
+              <h4>废弃工厂 8组</h4>
+              <span>陈屿 · 废墟场景 · 11月6日新增</span>
+            </div>
+            <span class="chart-score">8.7</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-rank">4</span>
+            <div class="chart-info">
+              <h4>溪谷逆光 6组</h4>
+              <span>阿七 · 自然户外 · 11月3日更新</span>
+            </div>
+            <span class="chart-score">8.4</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-rank">5</span>
+            <div class="chart-info">
+              <h4>旧卧室 胶片12张</h4>
+              <span>周野 · 复古室内 · 11月2日更新</span>
+            </div>
+            <span class="chart-score">8.1</span>
+          </div>
+          <div class="chart-row">
+            <span class="chart-rank">6</span>
+            <div class="chart-info">
+              <h4>单灯·灰背 9张</h4>
+              <span>陈屿 · 棚拍硬光 · 10月30日更新</span>
+            </div>
+            <span class="chart-score">7.8</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 12. 投稿互动 -->
+      <section class="section" id="submit">
+        <div class="section-head">
+          <h2>投稿与作品交流</h2>
+        </div>
+        <div class="submit-banner">
+          <div>
+            <h3>11月投稿通道开放中</h3>
+            <p>接受室内自然光、废墟场景、户外逆光、棚拍硬光四个方向的拍摄组投稿，需附场景说明与用光方式。截至11月7日已收37组，场景类占21组。</p>
+          </div>
+          <a href="/#submit" class="btn-primary">了解投稿方式</a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 右辅助栏 -->
+    <aside class="col-right" aria-label="辅助信息">
+      <div class="side-card">
+        <h3>本周更新条目</h3>
+        <ul class="side-list">
+          <li><span class="idx">1</span><a href="/#featured">暖光·室內 第3辑</a></li>
+          <li><span class="idx">2</span><a href="/#featured">废弃工厂 8组</a></li>
+          <li><span class="idx">3</span><a href="/#featured">林野访谈与幕后4组</a></li>
+          <li><span class="idx">4</span><a href="/#featured">溪谷逆光 6组</a></li>
+          <li><span class="idx">5</span><a href="/#featured">旧卧室 胶片12张</a></li>
+          <li><span class="idx">6</span><a href="/#featured">单灯·灰背 9张</a></li>
+          <li><span class="idx">7</span><a href="/#featured">毛坯房窗洞侧光 3组</a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>拍摄参数速查</h3>
+        <ul class="side-list">
+          <li><span class="idx">光</span>窗光下午四点约600lux</li>
+          <li><span class="idx">光</span>窗光六点约300lux以下</li>
+          <li><span class="idx">比</span>阴天窗光建议1:4</li>
+          <li><span class="idx">比</span>晴天窗光可达1:8以上</li>
+          <li><span class="idx">胶</span>Portra 400 暖调宽容度高</li>
+          <li><span class="idx">灯</span>裸灯1:4加反光板补暗部</li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>分类导航</h3>
+        <ul class="side-list">
+          <li><span class="idx">·</span><a href="/#categories">室内自然光 48组</a></li>
+          <li><span class="idx">·</span><a href="/#categories">废墟与工业 32组</a></li>
+          <li><span class="idx">·</span><a href="/#categories">自然户外 27组</a></li>
+          <li><span class="idx">·</span><a href="/#categories">单灯硬光棚拍 21组</a></li>
+          <li><span class="idx">·</span><a href="/#categories">胶片与复古调 19组</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<!-- 页尾 -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        <svg width="24" height="24" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="14" r="12" stroke="#c08a5c" stroke-width="1.2" opacity=".6"/>
+          <path d="M14 5 C10 9, 8 13, 9 19 C10 22, 12 24, 14 24 C16 24, 18 22, 19 19 C20 13, 18 9, 14 5Z" fill="#c08a5c" opacity=".25"/>
+          <circle cx="14" cy="11" r="2.2" fill="#d9a877"/>
+        </svg>
+        西西人体写真集
+      </div>
+      <p class="footer-desc">记录2026年10月至11月的人体摄影作品条目，覆盖室内自然光、废墟硬光、户外逆光、胶片混合光四个方向，每周更新拍摄手记与摄影师访谈，条目类型以作品组、幕后记录、参数对照为主。</p>
+    </div>
+    <div class="footer-col">
+      <h4>作品方向</h4>
+      <a href="/#featured">室内自然光</a>
+      <a href="/#featured">废墟与工业</a>
+      <a href="/#featured">自然户外逆光</a>
+      <a href="/#featured">棚拍硬光</a>
+    </div>
+    <div class="footer-col">
+      <h4>内容栏目</h4>
+      <a href="/#deepdive">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#chart">热门榜单</a>
+    </div>
+    <div class="footer-col">
+      <h4>互动</h4>
+      <a href="/#submit">投稿通道</a>
+      <a href="/#comments">用户评论</a>
+      <a href="/#news">相关资讯</a>
+      <a href="/#recommend">相关推荐</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>最后更新：2026年11月8日 · 对应条目「暖光·室內」第3辑、「废弃工厂」8组</span>
+    <span>作品条目为示例收录，版权归原摄影师所有</span>
+  </div>
+</footer>
+
+<!-- 回顶按钮 -->
+<button class="back-top" id="backTop" aria-label="回到顶部">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+<script>
+(function(){
+  var hamburger = document.getElementById('hamburger');
+  var mainNav = document.getElementById('mainNav');
+  var overlay = document.getElementById('navOverlay');
+  var searchInput = document.getElementById('searchInput');
+  var featureGrid = document.getElementById('featureGrid');
+  var searchEmpty = document.getElementById('searchEmpty');
+  var backTop = document.getElementById('backTop');
+  var navLinks = mainNav.querySelectorAll('a');
+
+  function closeNav(){
+    mainNav.classList.remove('open');
+    overlay.classList.remove('open');
+    hamburger.setAttribute('aria-expanded','false');
+  }
+  function openNav(){
+    mainNav.classList.add('open');
+    overlay.classList.add('open');
+    hamburger.setAttribute('aria-expanded','true');
+  }
+  hamburger.addEventListener('click', function(){
+    if(mainNav.classList.contains('open')){ closeNav(); } else { openNav(); }
+  });
+  overlay.addEventListener('click', closeNav);
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeNav(); }
+  });
+  navLinks.forEach(function(link){
+    link.addEventListener('click', function(){ closeNav(); });
+  });
+
+  // 搜索筛选
+  if(searchInput && featureGrid){
+    var cards = featureGrid.querySelectorAll('.feat-card');
+    searchInput.addEventListener('input', function(){
+      var q = this.value.trim().toLowerCase();
+      var visible = 0;
+      cards.forEach(function(card){
+        var text = (card.getAttribute('data-search') || '') + ' ' + card.textContent;
+        if(!q || text.toLowerCase().indexOf(q) !== -1){
+          card.style.display = '';
+          visible++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+      if(searchEmpty){
+        searchEmpty.style.display = (visible === 0 && q) ? 'block' : 'none';
+      }
+    });
+  }
+
+  // 回顶
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 500){ backTop.classList.add('show'); }
+    else { backTop.classList.remove('show'); }
+  }, { passive: true });
+  backTop.addEventListener('click', function(){
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // 滚动高亮频道
+  var sections = document.querySelectorAll('.section[id]');
+  var channelLinks = document.querySelectorAll('.channel-nav a');
+  var mainNavLinks = mainNav.querySelectorAll('a');
+  function highlight(){
+    var pos = window.scrollY + 130;
+    var current = '';
+    sections.forEach(function(sec){
+      if(sec.offsetTop <= pos){ current = sec.id; }
+    });
+    channelLinks.forEach(function(l){
+      l.classList.toggle('active', l.getAttribute('href') === '/#' + current);
+    });
+    mainNavLinks.forEach(function(l){
+      l.classList.toggle('active', l.getAttribute('href') === '/#' + current);
+    });
+  }
+  window.addEventListener('scroll', highlight, { passive: true });
+  highlight();
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "西西人体写真集",
+  "description": "收录室内自然光、废墟硬光、户外逆光、胶片混合光等方向的人体摄影作品条目，提供拍摄手记、参数对照与摄影师访谈。",
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "窗光拍摄在阴天和晴天差别有多大？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "差别主要在光比。晴天直射进窗的光比可达1:8以上，阴天通常压到1:2以内。林野的处理方式是晴天等下午四点后直射光离开窗户，阴天用白墙或白床单反光把光比拉回1:4左右。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "单灯硬光和天窗硬光哪个更难控制？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "单灯硬光可精确到光比数值和灯位角度，每次调整都能复现；天窗硬光只能选站位和等时机，光比随云层在1:5到1:9之间波动。陈屿的「单灯·灰背」和「废弃工厂」两组正好是这两种控制的对照。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Portra 400 在台灯混合光下为什么不容易偏黄？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Portra 400 对暖调的宽容度偏高，2700K台灯在胶片上会被压成偏橙的中间调，而不是像数码那样直接偏黄到溢出。周野「旧卧室」第3到第5张里，台灯从一盏加到两盏，画面没有明显变亮，而是暖调区域扩大。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "「暖光·室內」第3辑第7到第12张的变化是怎么来的？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "拍摄时间从下午四点推到六点，窗边照度从600lux左右降到300lux以下，色温从5200K滑到3800K。林野没有中途补光，保留了这个滑落过程，所以第7张到第12张的暖调是逐张加重的。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "废墟场景里同一面墙拍顺光和侧逆光，差别在哪？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "顺光下墙面纹理完整，身体和背景的明暗关系较平；侧逆光把身体轮廓压成一条亮边，暗部接近全黑，墙面只保留受光面。陈屿在「废弃工厂」第3组用顺光、第6组用侧逆光，两组的混凝土墙是同一面。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "胶片拍摄的人体写真，后期调整空间有多大？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "比数码小。Portra 400 的宽容度主要集中在高光一侧，暗部提亮容易带出颗粒和色偏。周野「旧卧室」第9张的镜面反射构图里，镜外身体和镜中像的曝光差在胶片上已经固定，后期能做的只是整体微调。"
+      }
+    }
+  ]
+}
+</script>
+</body>
+        </html>
